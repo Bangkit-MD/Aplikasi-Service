@@ -13,7 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyService"
         tools:targetApi="31">
-
+        <service
+            android:name=".MyBoundService"
+            android:enabled="true"
+            />
         <service
             android:name=".MyForegoundService"
             android:enabled="true"
